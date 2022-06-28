@@ -1,0 +1,32 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+   
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(176, 187, 202);
+}
+.navBar img{
+    margin: 10px 0px 0px 15px;
+    width: 100px;
+    height: 55px;
+}
+.navBar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 40px;
+   
+}
+// .navBar ul li{
+// }
+.links{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    margin-right: 20px;
+}
+.links:hover{
+    text-decoration: underline;
+}
